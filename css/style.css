@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+.wrapper {
+  position: relative;
+  margin: 25px;
+  padding: 25px;
+  height: 350px;
+  border-radius: 15px;
+  border: solid rgba(5, 5, 5, .75) 5px;
+  max-width: 475px;
+  min-width: 260px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+h2,
+button {
+  font-family: 'PT Sans', sans-serif;
+  ;
+}
+
+h2 {
+  text-shadow: 0px 0px 8px rgba(150, 150, 150, 0.5);
+  color: white;
+  font-size: 1.4em;
+}
+
+input {
+  display: inline-block;
+}
+
+button:hover {
+  background: rgba(5, 5, 5, .5);
+  color: #ccc;
+}
+
+button {
+  transition: background-color .75s ease;
+  display: inline-block;
+  margin: 15px auto;
+  width: 170px;
+  height: 60px;
+  padding: 5px;
+  background: transparent;
+  border: solid rgba(5, 5, 5, .75) 5px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+body {
+  background: #000;
+}
+
+.js-geolocation {
+  position: absolute;
+  right: 20px;
+  bottom: 80px;
+}
+
+.find-me {
+  position: absolute;
+  right: 205px;
+  bottom: 20px;
+  width: 90px;
+  margin: 0;
+  line-height: 40px;
+}
+
+.manual-loc {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  line-height: 30px;
+  width: 140px;
+  border: solid rgba(5, 5, 5, .75) 5px;
+  border-radius: 5px;
+  background: transparent;
+  color: #fff;
+  padding: 10px;
+}
